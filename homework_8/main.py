@@ -47,7 +47,17 @@ print(
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
-word = f"{alphabet[5]}{alphabet[17]}{alphabet[4]}{alphabet[14]}{alphabet[17]}{alphabet[12]}{alphabet[19]}"
-
-original_sentence = "I hope you agree with me that the solution used above to deliver HTML to the browser is not good."
-new_sentence = f"I hope that you used {original_sentence[44:48]} {original_sentence[56:59]} {original_sentence[61:68]}."
+word = (
+    alphabet[5].upper()
+    + alphabet[-9]
+    + alphabet[4]
+    + alphabet[4]
+    + alphabet[3]
+    + alphabet[-12]
+    + alphabet[-14]
+)
+print(word)
+original_text = "I hope you agree with me that the solution used above to deliver HTML to the browser is not good."
+new_sentence = f"I hope that you {original_text[43:47]} {original_text[65:69]}."
+print(original_text.find("HTML"))
+print(new_sentence)
