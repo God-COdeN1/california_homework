@@ -40,5 +40,14 @@ print(
     f"""My name is {name.capitalize()} and my last name {last_name.capitalize()}\n. About me:\t\nAge: {year}
       I live in {country.capitalize()}
       My favorite series books is {book.title()}
-      My favorite game is {play.capitalize()}"""
+      My favorite game is {play.capitalize()}
+      My hobby is {hobby.capitalize()}
+      And my favorite food is {eat.capitalize()}"""
 )
+
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+word = f"{alphabet[5]}{alphabet[17]}{alphabet[4]}{alphabet[14]}{alphabet[17]}{alphabet[12]}{alphabet[19]}"
+
+original_sentence = "I hope you agree with me that the solution used above to deliver HTML to the browser is not good."
+new_sentence = f"I hope that you used {original_sentence[44:48]} {original_sentence[56:59]} {original_sentence[61:68]}."
